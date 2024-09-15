@@ -8,3 +8,4 @@ Below are the list of programs that needs to be installed for this setup to work
 * Display Manager: ```sddm```
 * Wayland Bar: ```waybar```
 * Cursor Theme: ```bibata-cursor-theme```
+* Network: ```networkmanager``` ```network-manager-applet```
