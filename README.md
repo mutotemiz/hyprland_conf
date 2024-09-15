@@ -7,3 +7,4 @@ Below are the list of programs that needs to be installed for this setup to work
 * Menu: ```wofi```
 * Display Manager: ```sddm```
 * Wayland Bar: ```waybar```
+* Cursor Theme: ```bibata-cursor-theme```
