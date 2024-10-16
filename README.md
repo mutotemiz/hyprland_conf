@@ -3,9 +3,8 @@ To be able to use Hyprland, you should enable ```wayland``` as your display serv
 
 Below are the list of programs that needs to be installed for this setup to work.
 * Terminal: ```alacritty```
-* File Manager: ```dolphin```
+* File Manager: ```thunar```
 * Menu: ```wofi```
-* Display Manager: ```sddm```
+* Display Manager: ```gdm```
 * Wayland Bar: ```waybar```
-* Cursor Theme: ```bibata-cursor-theme```
 * Network: ```networkmanager``` ```network-manager-applet```
