@@ -212,7 +212,6 @@ window#waybar.empty #window {
     padding: 2px 5px;
     min-width: 20px
 }
-
 #custom-terminal:hover {
     color: @textcolor3;
     background: @workspaceselected;
@@ -228,7 +227,6 @@ window#waybar.empty #window {
     padding: 2px 5px;
     min-width: 20px
 }
-
 #custom-filemanager:hover {
     color: @textcolor3;
     background: @workspaceselected;
@@ -240,13 +238,18 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #custom-exit {
-    margin: 0px 20px 0px 0px;
-    padding:0px;
+    margin: 0px 0px 0px 0px;
+    padding:0px 5px 0px 5px;
     font-size:14px;
     color: @iconcolor;
+    min-width: 20px
 }
 
-
+#custom-exit:hover {
+    color: @textcolor3;
+    background: @workspaceselected;
+    border-radius: 10px;
+}
 
 /* -----------------------------------------------------
  * Hardware Group
@@ -270,11 +273,15 @@ window#waybar.empty #window {
     font-size: 14px;
     color: @textcolor3;
     border-radius: 15px;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 10px 0px 10px;
+    padding: 0px 5px 0px 5px;
+    margin: 0px 0px 0px 0px;
 }
 
-
+#clock:hover {
+    color: @textcolor3;
+    background: @workspaceselected;
+    border-radius: 10px;
+}
 /* -----------------------------------------------------
  * Pulseaudio
  * ----------------------------------------------------- */
@@ -284,8 +291,8 @@ window#waybar.empty #window {
     font-size: 14px;
     color: @textcolor3;
     border-radius: 15px;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 10px 0px 10px;
+    padding: 0px 5px 0px 5px;
+    margin: 0px 0px 0px 0px;
 }
 
 #pulseaudio.muted {
@@ -293,6 +300,11 @@ window#waybar.empty #window {
     color: @backgroundlight;
 }
 
+#pulseaudio:hover {
+    color: @textcolor3;
+    background: @workspaceselected;
+    border-radius: 10px;
+}
 /* -----------------------------------------------------
  * Network
  * ----------------------------------------------------- */
@@ -302,20 +314,34 @@ window#waybar.empty #window {
     font-size: 14px;
     color: @textcolor3;
     border-radius: 15px;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 10px 0px 10px;
+    padding: 0px 5px 0px 5px;
+    margin: 0px 0px 0px 0px;
+}
+#network:hover {
+    color: @textcolor3;
+    background: @workspaceselected;
+    border-radius: 10px;
 }
 
 #network.ethernet {
     background-color: @backgrounddark;
     color: @textcolor2;
 }
+#network.ethernet:hover {
+    color: @textcolor3;
+    background: @workspaceselected;
+    border-radius: 10px;
+}
 
 #network.wifi {
     background-color: @backgrounddark;
     color: @textcolor3;
 }
-
+#network.wifi:hover {
+    color: @textcolor3;
+    background: @workspaceselected;
+    border-radius: 10px;
+}
 /* -----------------------------------------------------
  * Bluetooth
  * ----------------------------------------------------- */
@@ -325,14 +351,24 @@ window#waybar.empty #window {
     font-size: 14px;
     color: @textcolor3;
     border-radius: 15px;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 10px 0px 10px;
+    padding: 0px 5px 0px 5px;
+    margin: 0px 0px 0px 0px;
+}
+#bluetooth:hover, #bluetooth.on:hover, #bluetooth.connected:hover {
+    color: @textcolor3;
+    background: @workspaceselected;
+    border-radius: 10px;
 }
 
 #bluetooth.off {
     background-color: @bakgroundlight;
     padding: 0px;
     margin: 0px;
+}
+#bluetooth.off:hover{
+    color: @textcolor3;
+    background: @workspaceselected;
+    border-radius: 10px;
 }
 
 /* -----------------------------------------------------
