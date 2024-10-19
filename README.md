@@ -4,7 +4,7 @@ To be able to use Hyprland, you should enable ```wayland``` as your display serv
 Below are the list of programs that needs to be installed for this setup to work.
 * Terminal: ```alacritty```
 * File Manager: ```thunar```
-* Menu: ```wofi```
+* Menu: ```rofi```
 * Display Manager: ```gdm```
 * Wayland Bar: ```waybar```
 * Network: ```networkmanager``` ```network-manager-applet```
