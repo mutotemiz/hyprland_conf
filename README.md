@@ -8,3 +8,5 @@ Below are the list of programs that needs to be installed for this setup to work
 * Display Manager: ```gdm```
 * Wayland Bar: ```waybar```
 * Network: ```networkmanager``` ```network-manager-applet```
+* Shell: ```zsh```
+* Terminal Prompt Themes ```oh-my-posh```
